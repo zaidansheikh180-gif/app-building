@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "github": {
+      "url": "https://modelcontextprotocol.github.io/server-github/",
+      "type": "http"
+    }
+  }
+}
