@@ -475,23 +475,44 @@ Policy:
 - Before a binary is downloaded, installed, or run, report its exact name/version/source, permissions, filesystem/network/browser/Git access, and any checksum or signature verification.
 - Require explicit approval before each binary installation or execution.
 
-
-
-# Repositories explicitly blocked
-
-Do not clone, install, execute, import, or recommend these by default.
-
 ## Graphify
 
 Repository: `https://github.com/Graphify-Labs/graphify.git`
 
-Reason: requires API keys and may override agent rules.
+Install:
+
+```text
+graphify
+```
+
+Type: tool requiring setup.
+
+Policy:
+
+- Allowed for inspection, not automatic installation or execution.
+- Requires explicit approval because it requires API keys and may override agent rules.
 
 ## Last 30 Days Skill
 
 Repository: `https://github.com/mvanhorn/last30days-skill.git`
 
-Reason: may require browser cookies or secrets and may override agent rules.
+Install:
+
+```text
+last30days
+```
+
+Type: skill requiring setup.
+
+Policy:
+
+- Allowed for inspection, not automatic installation or execution.
+- Requires explicit approval because it may require browser cookies or secrets and may override agent rules.
+
+
+# Repositories explicitly blocked
+
+Do not clone, install, execute, import, or recommend these by default.
 
 ## Scroll World
 
