@@ -376,6 +376,25 @@ write-like-meng-on-x
 x-bookmark-quote-posts
 ```
 
+## Ponytail
+
+Repository:
+
+```text
+https://github.com/DietrichGebert/ponytail.git
+```
+
+Install:
+
+```text
+ponytail
+ponytail-audit
+ponytail-debt
+ponytail-gain
+ponytail-help
+ponytail-review
+```
+
 # Libraries: not skills
 
 Do not copy these into the skill directory. Recommend them only when relevant, explain the purpose, and ask before adding dependencies.
