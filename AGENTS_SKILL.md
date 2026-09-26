@@ -465,6 +465,12 @@ Policy:
 
 Repository: `https://github.com/pbakaus/impeccable.git`
 
+Install:
+
+```text
+impeccable
+```
+
 Type: tool or skill package that may download and execute a binary.
 
 Policy:
