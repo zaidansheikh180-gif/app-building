@@ -187,6 +187,20 @@ Install:
 hallmark
 ```
 
+## Claude Skills LLM Council
+
+Repository:
+
+```text
+https://github.com/aiwithremy/claude-skills-llm-council.git
+```
+
+Install:
+
+```text
+claude-skills-llm-council
+```
+
 ## NVIDIA SkillSpector
 
 Repository:
@@ -442,20 +456,7 @@ Policy:
 - Before a binary is downloaded, installed, or run, report its exact name/version/source, permissions, filesystem/network/browser/Git access, and any checksum or signature verification.
 - Require explicit approval before each binary installation or execution.
 
-## Claude Skills LLM Council
 
-Repository: `https://github.com/aiwithremy/claude-skills-llm-council.git`
-
-Type: multi-agent advisor and deliberation workflow.
-
-Policy:
-
-- Allowed for inspection, not automatic installation or execution.
-- Inspect agent count, models/services, API keys, tools, browser access, filesystem permissions, and whether prompts/code leave the machine.
-- Before use, report expected token/API usage, possible cost, and all external services.
-- Require explicit approval before launching parallel agents or billable API calls.
-- Use a user-specified strict cost budget and agent limit.
-- Never allow publishing, deployment, messaging, remote Git changes, or other irreversible actions without separate approval.
 
 # Repositories explicitly blocked
 
